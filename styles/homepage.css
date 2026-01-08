@@ -81,6 +81,10 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+/* .btn img {
+    vertical-align: center;
+} */
+
 .btn2 {
     padding: 8px 12px 8px 12px;
     border-radius: 1000px;
@@ -88,6 +92,13 @@ nav ul li a:hover {
     color: #30B868;
     align-items: center;
     justify-content: center;
+}
+
+.btn2:hover {
+    background-color: #30B868;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: rgba(255, 255, 255, 1);
 }
 
 .hero-content {
