@@ -295,3 +295,51 @@ nav ul li a:hover {
     align-items: center;
 
 }
+
+.early-access {
+    width: 1600px;
+    /* height: 506px; */
+    padding: 0px 120px 120px 120px;
+    /* border: solid 1px #E0E0E0; */
+    margin: 0 auto;
+}
+
+.early-access-content {
+    width: 1360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+    padding: 80px 40px;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    margin-top: 0px;
+}
+
+.early-access-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.early-access-content .subtext {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.early-access-content .btn {
+    margin: 24px 0px 12px 0px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    background: var(--#30B868, rgba(70, 145, 101, 1));
+}
+
+.early-access-content .bottom-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
