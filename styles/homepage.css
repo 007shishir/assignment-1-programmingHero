@@ -147,14 +147,15 @@ nav ul li a:hover {
 
 .notes-section {
     max-width: 1600px;
-    height: 448px;
+    /* height: 448px; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 120px;
+    padding: 120px 120px 0 120px;
     gap: 44px;
     background-color: rgba(255, 255, 255, 1);
+    /* border: solid; */
 }
 
 .notes-section .notes-header {
@@ -224,4 +225,73 @@ nav ul li a:hover {
     line-height: 20px;
     color: #555555;
     text-align: center;
+}
+
+.second-brain-section {
+    max-width: 1600px;
+    /* height: 840px; */
+    margin: 0 auto;
+    padding: 120px;
+    /* border: solid 1px #E0E0E0; */
+}
+
+.second-brain-section .inner-box {
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60;
+}
+
+.second-brain-section .image-box {
+    width: 600px;
+    height: 600px;
+}
+
+.brain-content {
+    padding-left: 60px;
+}
+
+.brain-content .sup-head {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #30B868;
+}
+
+.brain-content .mainbody-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.brain-content h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.brain-content ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.brain-content ul li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    padding: 5px 0px;
+    text-align: left;
+    align-items: center;
+
 }
